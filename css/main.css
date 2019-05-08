@@ -77,7 +77,7 @@ body {
 
  
 
-@media(max-width: 375px) {
+@media(max-width: 1000px) {
     .showcase:before {
         content: '';
         background: url('../img/losangeles5responsive.jpg') repeat center right/cover;
@@ -92,10 +92,29 @@ body {
 
     .container {
         
-        max-width:;
+        max-width:300px;
         margin: left;
         overflow: hidden;
         padding: 460px 3rem;
     }
     
+}
+
+@media(max-width: 320px) {
+
+    .container {
+        
+        max-width:320px;
+        margin: left;
+        overflow: hidden;
+        padding: 370px 10px;
+    }
+
+    .showcase h1 {
+        font-size: 3.7rem;
+    }
+    
+    .showcase p {
+        font-size: 1.3rem;
+    }
 }
