@@ -75,12 +75,12 @@ body {
     opacity: 0.7;
 }
 
-/* 
+ 
 
 @media(max-width: 375px) {
     .showcase:before {
         content: '';
-        background: url('../img/exclusivela1.jpg') repeat center center/cover;
+        background: url('../img/losangeles5responsive.jpg') repeat center right/cover;
         position: absolute;
         top: 0;
         left: 0;
@@ -89,4 +89,13 @@ body {
         z-index: -1;
         
     }
-} */
+
+    .container {
+        
+        max-width:;
+        margin: left;
+        overflow: hidden;
+        padding: 460px 3rem;
+    }
+    
+}
