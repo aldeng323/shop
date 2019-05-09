@@ -104,7 +104,7 @@ body {
 
     .showcase:before {
         content: '';
-        background: url('../img/losangeles5responsive.jpg') repeat center right/cover;
+        background: url('../img/losangeles5responsive.jpg') no-repeat center right/cover;
         position: absolute;
         top: 0;
         left: 0;

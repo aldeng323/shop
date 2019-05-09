@@ -1,0 +1,7 @@
+.aboutbackground {
+
+    position: absolute;
+    background: url('../img/losangeles7.jpg') no-repeat center top/cover;
+    width: 100%;
+    height: 100%;
+}
