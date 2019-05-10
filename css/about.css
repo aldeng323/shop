@@ -1,7 +1,10 @@
 .aboutbackground {
 
     position: absolute;
-    background: url('../img/losangeles7.jpg') no-repeat center top/cover;
+    background: url('../img/losangeles6.jpg') no-repeat center top/cover;
     width: 100%;
     height: 100%;
+    z-index: -1;
+    min-height: 100vh;
 }
+
