@@ -87,7 +87,7 @@ body {
     justify-content: space-around;
     list-style: none;
     font-size: .8rem;
-    position: absoulute;
+    position: fixed;
     padding: 15px;
     bottom: 0;
     width: 100%;
