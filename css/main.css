@@ -154,11 +154,11 @@ body {
     }
 
     .showcase h1 {
-        font-size: 3.7rem;
+        font-size: 1.7rem;
     }
     
     .showcase p {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 
     .footer {
@@ -175,4 +175,17 @@ body {
         width: 100%;
           
     }
+
+    .btn {
+        display: inline-block;
+        border: none;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 1rem 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        transition: opacity 1s ease-in;
+    }
+    
 }
