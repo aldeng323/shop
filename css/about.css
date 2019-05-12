@@ -34,7 +34,7 @@ background-attachment
 
     
     background-image: url('../img/losangeles8.jpg');
-    min-height: 600px;
+    min-height: 900px;
 }
 
 .pimg2 {
@@ -52,7 +52,7 @@ background-attachment
 
 .section {
    text-align:center;
-    padding: 100px 100px;
+    padding: 200px 100px;
 }
 
 .section-light {
