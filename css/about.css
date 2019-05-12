@@ -82,8 +82,17 @@ background-attachment
     padding: 20px; 
 }
 
-/* 
-.ptext .border .trans {
-   background-color: transparent; 
+ 
+.ptext .border.trans {
+   background-color: transparent;
+   color: #000; 
 }
-*/
+
+
+
+@media(max-width:319px) {
+    
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: fixed;
+    }
+}
