@@ -68,8 +68,8 @@ background-attachment
    width: 100%;
    text-align: center;
    color: #000;
-   font-size: 27px;
-   letter-spacing: 8px;
+   font-size: 2rem;
+   letter-spacing: 1rem;
    text-transform: uppercase;
 }
 
@@ -77,6 +77,10 @@ background-attachment
     background-color: #111;
     color: #fff;
     padding: 20px; 
+}
+
+.ptext.display {
+    display: column;
 }
 
 /* 
