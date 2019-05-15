@@ -10,7 +10,7 @@
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
-    opacity: 0.3;
+    opacity: 0.7;
     background-postion: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,9 +29,8 @@ background-attachment
 
 .pimg1 {
 
-    /*
-    background-image: url('../img/BarbershopPhoto.jpg'); */
-    min-height: 400px;
+    background-image: url('../img/losangeles5.jpg');
+    min-height: 900px;
 }
 
 .pimg2 {
@@ -52,14 +51,27 @@ background-attachment
     padding: 50px 80px;
 }
 
+.section p {
+    font-size: 1.4rem;
+}
+
+.section ul li {
+    list-style: none;
+    font-size: 1.2rem;
+} 
+
 .section-light {
     background-color: #f4f4f4;
     color: #666;
+    list-style: none;
 }
 
 .section-dark {
     background-color: #282e34;
     color: #ddd;
+    text-decoration: none;
+    list-style: none;
+    
 }
 
 .ptext {
