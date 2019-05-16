@@ -35,14 +35,13 @@ background-attachment
 
 .pimg2 {
 
-    /*background-image: url('../img/BarbershopPhoto2.jpg'); */
+    background-image: url('../img/losangeles9.jpg');
     min-height: 400px;
 }
 
 .pimg3 {
 
-    /*
-    background-image: url('../img/BarbershopPhoto3.jpg'); */
+    background-image: url('../img/losangeles15.jpg');
     min-height: 400px;
 }
 
@@ -58,6 +57,7 @@ background-attachment
 
 .section a {
     text-decoration: none;
+    color: rgb(197, 250, 4);
 }
 
 .section ul li {
