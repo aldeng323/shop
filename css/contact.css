@@ -30,19 +30,19 @@ background-attachment
 .pimg1 {
 
     background-image: url('../img/losangeles9.jpg');
-    min-height: 1300px;
+    min-height: 180vh;
 }
 
 .pimg2 {
 
     background-image: url('../img/losangelesresponsive.jpg');
-    min-height: 400px;
+    min-height: 80vh;
 }
 
 .pimg3 {
 
     background-image: url('../img/losangelesresponsive.jpg');
-    min-height: 400px;
+    min-height: 80vh;
 }
 
 .section {
