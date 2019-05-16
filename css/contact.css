@@ -11,7 +11,7 @@
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.7;
-    background-position: left;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -30,7 +30,7 @@ background-attachment
 .pimg1 {
 
     background-image: url('../img/losangeles9.jpg');
-    min-height: 900px;
+    min-height: 1300px;
 }
 
 .pimg2 {
@@ -101,3 +101,7 @@ background-attachment
    background-color: transparent; 
 }
 */
+
+@media(max-width:414px) {
+    background-attachment: scroll;
+}
