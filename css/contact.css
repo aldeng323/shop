@@ -35,7 +35,7 @@ background-attachment
 
 .pimg2 {
 
-    /* background-image: url('../img/losangelesresponsive.jpg'); */
+    background-image: url('../img/losangelesresponsive.jpg');
     min-height: 400px;
 }
 
