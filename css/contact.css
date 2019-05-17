@@ -96,11 +96,12 @@ background-attachment
     padding: 20px; 
 }
 
-/* 
-.ptext .border .trans {
-   background-color: transparent; 
+
+.ptext .border.trans {
+   background-color: transparent;
+   color: rgb(4, 36, 78);
 }
-*/
+
 
 /* @media(max-width:414px) {
     background-attachment: scroll;
