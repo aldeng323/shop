@@ -11,7 +11,7 @@
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.7;
-    background-position: bottom;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -29,7 +29,7 @@ background-attachment
 
 .pimg1 {
 
-    background-image: url('../img/losangelesresponsive1.jpg');
+    background-image: url('../img/losangeles16.jpg');
     min-height: 800px;
 }
 
