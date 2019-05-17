@@ -12,8 +12,8 @@
     position: relative;
     opacity: 0.8;
     background-position: left;
-    background-size: 800px;
-    /* background-repeat: no-repeat; */
+    background-size: 350px;
+    background-repeat: no-repeat;
 
     /*
 background-attachment
@@ -30,7 +30,7 @@ background-attachment
 .pimg1 {
 
     background-image: url('../img/losangeles18.jpg');
-    min-height: 700px;
+    min-height: 500px;
 }
 
 .pimg2 {
