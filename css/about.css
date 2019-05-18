@@ -107,3 +107,16 @@ background-attachment
     
     }
 }
+
+@media(max-height: 414px) {
+
+    .pimg1, .pimg2, .pimg3 {
+        position: relative;
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    
+    }  
+}
