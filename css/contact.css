@@ -13,7 +13,7 @@
     opacity: 0.8;
     background-position: center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
     /*
 background-attachment
@@ -41,7 +41,7 @@ background-attachment
 
 .pimg3 {
 
-    /* background-image: url('../img/losangelesresponsive.jpg'); */
+    background-image: url('../img/losangeles12.jpg');
     min-height: 400px;
 }
 
@@ -97,12 +97,24 @@ background-attachment
 }
 
 
-.ptext .border.trans {
+/* .ptext .border.trans {
+   background-color: transparent;
+   color: #000;
+} */
+
+
+@media(max-width:414px) {
+
+    .ptext .border.trans {
    background-color: transparent;
    color: #000;
 }
 
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
 
-/* @media(max-width:414px) {
-    background-attachment: scroll;
-} */
+}
