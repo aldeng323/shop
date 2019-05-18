@@ -12,7 +12,7 @@
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.8;
-    background-postion: center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -102,7 +102,7 @@ background-attachment
     .pimg1, .pimg2, .pimg3 {
         position: relative;
         opacity: 0.8;
-        background-position: center;
+        background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
