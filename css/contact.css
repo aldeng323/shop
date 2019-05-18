@@ -103,9 +103,9 @@ background-attachment
 } */
 
 
-@media(max-width:600px) {
+@media(max-width:760px) {
 
-    /* .ptext .border.trans {
+/* .ptext .border.trans {
    background-color: transparent;
    color: #000;
 } */
@@ -117,5 +117,7 @@ background-attachment
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+
+}
 
 }
