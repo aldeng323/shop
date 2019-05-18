@@ -113,8 +113,8 @@ background-attachment
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.8;
-    background-position: center;
-    background-size: 200px 100px;
+    /* background-position: center; */
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
