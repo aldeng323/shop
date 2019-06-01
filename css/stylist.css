@@ -55,6 +55,7 @@ background-attachment
 .section-light {
     background-color: #f4f4f4;
     color: #666;
+    display: row;
 }
 
 .section-dark {
@@ -89,6 +90,10 @@ background-attachment
 }
 */
 
+img {
+    display: block;
+    width: 100%;
+}
 
 /* Media Queries */
 
@@ -108,6 +113,16 @@ background-attachment
         background-attachment: scroll;
     
     }
+
+    .headshot {
+        max-width: 760px;
+    }
+
+    img {
+        display: block;
+        max-width: 700px;
+        
+    }
 }    
 
 @media(max-height: 414px) {
@@ -120,5 +135,14 @@ background-attachment
         background-repeat: no-repeat;
         background-attachment: scroll;
     
-    }  
+    }
+    
+    .headshot {
+        max-width: 414px;
+    }
+
+    img {
+        display: block;
+        max-width: 400px;
+    }
 }
