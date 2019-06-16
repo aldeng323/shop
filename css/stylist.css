@@ -95,6 +95,11 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(160, 157, 1);
+}
+
 /* Media Queries */
 
 @media(max-width:760px) {
