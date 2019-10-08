@@ -10,6 +10,21 @@
 
 /* Main area Styling */
 
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  float: right;
+  padding:10px 25px 10px 10px;
+  cursor: pointer;
+}
+
+.borderbottom {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -32,7 +47,7 @@ background-attachment
 
 .pimg1 {
 
-    
+
     background-image: url('../img/losangeles8.jpg');
     min-height: 900px;
 }
@@ -45,7 +60,7 @@ background-attachment
 
 .pimg3 {
 
-    
+
     background-image: url('../img/losangeles6.jpg');
     min-height: 400px;
 }
@@ -79,13 +94,13 @@ background-attachment
 .ptext .border {
     background-color: #111;
     color: #fff;
-    padding: 20px; 
+    padding: 20px;
 }
 
- 
+
 .ptext .border.trans {
    background-color: transparent;
-   color: #000; 
+   color: #000;
 }
 
 
@@ -96,7 +111,31 @@ background-attachment
        background-color: transparent;
        color: #000;
     } */
-    
+
+    .borderbottom {
+      background-color: #000000;
+      width: 100%;
+      margin-top: -25px;
+    }
+
+    h1 {
+      padding-left: 75px;
+      cursor: hidden;
+      margin-right: 20px;
+      position: fixed;
+      background-color: #000000;
+      z-index: 1;
+      width: 100%;
+      color: #ffffff;
+      height: 65px;
+      text-align: center;
+
+    }
+
+    h1 a {
+      text-decoration: none;
+    }
+
     .pimg1, .pimg2, .pimg3 {
         position: relative;
         opacity: 0.8;
@@ -104,7 +143,7 @@ background-attachment
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
-    
+
     }
 }
 
@@ -117,6 +156,6 @@ background-attachment
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
-    
-    }  
+
+    }
 }

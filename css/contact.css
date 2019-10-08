@@ -7,6 +7,20 @@
 
 /* Main area Styling */
 
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  float: right;
+  padding:10px 25px 10px 10px;
+  cursor: pointer;
+}
+
+.borderbottom {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -63,7 +77,7 @@ background-attachment
 .section ul li {
     list-style: none;
     font-size: 1.2rem;
-} 
+}
 
 .section-light {
     background-color: #f4f4f4;
@@ -76,7 +90,7 @@ background-attachment
     color: #ddd;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 .ptext {
@@ -93,7 +107,7 @@ background-attachment
 .ptext .border {
     background-color: #111;
     color: #fff;
-    padding: 20px; 
+    padding: 20px;
 }
 
 
@@ -109,6 +123,29 @@ background-attachment
    background-color: transparent;
    color: #000;
 } */
+
+.borderbottom {
+  background-color: #000000;
+  width: 100%;
+  margin-top: -25px;
+}
+
+h1 {
+  padding-left: 75px;
+  cursor: hidden;
+  margin-top: 0px;
+  position: fixed;
+  background-color: #000000;
+  z-index: 1;
+  width: 100%;
+  color: #ffffff;
+  height: 65px;
+
+}
+
+h1 a {
+  text-decoration: none;
+}
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -131,6 +168,6 @@ background-attachment
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
-    
-    }  
+
+    }
 }
