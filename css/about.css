@@ -12,9 +12,9 @@
 
 h1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 
-  padding: 20px 65px 10px 40px;
+  padding: 20px 65px 40px 40px;
   cursor: pointer;
 }
 
@@ -135,6 +135,7 @@ background-attachment
     h1 a {
       text-decoration: none;
       color: #0000ff;
+      font-family: 'caligraffitti' , cursive;
     }
 
     .pimg1, .pimg2, .pimg3 {
