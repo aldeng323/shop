@@ -3,6 +3,9 @@
   height: 100%;
 }*/
 
+* {
+  box-sizing: border-box;
+}
 
 
 h1 {
@@ -12,6 +15,7 @@ h1 {
   /* padding:10px 25px 10px 10px; */
   cursor: pointer;
   background-color: #000000;
+  margin: 0 auto;
   width: 100%;
   color: #ffffff;
 
@@ -23,8 +27,11 @@ h1 a {
 
 .borderbottom {
   background-color: #ffffff;
+  font-size: 1rem;
+  margin: 0 auto;
   /* text-align: center; */
   width: 100%;
+  text-align: center;
 
 
 
@@ -33,6 +40,16 @@ h1 a {
 .logo {
   background-color: #000000;
   width: 100%;
+}
+
+#merchbackground {
+  background-image: url('../img/losangelesresponsive1.jpg');
+
+
+}
+
+.newmerch {
+  background-color: pink;
 }
 
 .bgimg {
@@ -57,23 +74,18 @@ h1 a {
     text-align: center;
 }
 
-h1 {
-    font-size: 40px;
-    letter-spacing: 30px;
-    font-weight: 100;
-    text-align: center;
-}
+
 
 #demo {
     font-weight: lighter;
     word-spacing: 20px;
 }
 
-hr {
+/* hr {
     margin: auto;
     width: 80%;
     border: 1.5px solid #fff;
-}
+} */
 
 
 
@@ -89,20 +101,12 @@ hr {
       width: 100%;
       margin-top: -25px;
       visibility: visible;
+      height: 12px;
     }
 
     h1 {
-      padding-left: 75px;
-      cursor: hidden;
-      margin-right: 20px;
-      position: fixed;
-      background-color: #000000;
-      z-index: 1;
-      width: 100%;
-      color: #ffffff;
-      height: 65px;
-      text-align: center;
-      font-size: 2rem;
+      text-align: left;
+      font-size: 1px;
 
     }
 
@@ -110,10 +114,36 @@ hr {
       text-decoration: none;
       color: #0000ff;
       font-family: 'caligraffitti' , cursive;
-      width: 50%;
+
+
     }
 
-    .pimg1, .pimg2, .pimg3 {
+    .newmerch {
+      margin: 100px 50px 0 50px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    #merchbackground {
+      background-image: url('../img/losangelesresponsive1.jpg');
+      background-position: left;
+      background-size: cover;
+      min-height: 800px;
+      min-width: 400px;
+      overflow: hidden;
+      margin: 25px 0 0 0;
+
+
+
+    }
+
+    /* .pimg1, .pimg2, .pimg3 {
         position: relative;
         opacity: 0.8;
         background-position: center;
@@ -121,5 +151,5 @@ hr {
         background-repeat: no-repeat;
         background-attachment: scroll;
 
-    }
+    } */
 }
