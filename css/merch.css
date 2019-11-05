@@ -48,9 +48,6 @@ h1 a {
 
 }
 
-.newmerch {
-  background-color: pink;
-}
 
 .bgimg {
 
@@ -120,6 +117,11 @@ h1 a {
 
     .newmerch {
       margin: 100px 50px 0 50px;
+      padding: 10px;
+      color: #a86032;
+      background-color: #000000;
+      border: 5px dotted #0000ff;
+      border-radius: 15px;
     }
 
     h2 {
@@ -131,13 +133,13 @@ h1 a {
     }
 
     #merchbackground {
-      background-image: url('../img/losangelesresponsive1.jpg');
+      background-image: url('../img/merch.jpg');
       background-position: left;
       background-size: cover;
       min-height: 800px;
       min-width: 400px;
       overflow: hidden;
-      margin: 25px 0 0 0;
+      margin: 22px 0 0 0;
 
 
 
