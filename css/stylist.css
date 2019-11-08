@@ -10,17 +10,23 @@
 
 h1 {
   text-align: center;
-  font-size: 1.8rem;
-
-  padding: 20px 65px 10px 40px;
+  font-size: 1.7rem;
+ height: 70px;
+ width: 100%;
+  margin: 30px 20px 0 20px;
   cursor: pointer;
   color: #000000;
+
 }
 
 .borderbottom {
   background-color: #000000;
   text-align: center;
-  padding: 20px;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
 }
 
 
@@ -131,17 +137,17 @@ a {
     }
 
     h1 {
-      padding-left: 75px;
+      padding: 75px;
       cursor: hidden;
-      margin-top: 0px;
+
       position: fixed;
       background-color: #000000;
       z-index: 1;
       width: 100%;
       color: #ffffff;
-      height: 65px;
-      margin-left: 30px;
-      text-align: left;
+      height: 55px;
+
+      text-align: center;
 
     }
 
@@ -149,6 +155,10 @@ a {
       text-decoration: none;
       color: #0000ff;
       font-family: 'caligraffitti', cursive;
+    }
+
+    h2 {
+      text-align: center;
     }
 
     .pimg1, .pimg2, .pimg3 {

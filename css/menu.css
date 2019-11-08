@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menu-wrap .toggler {
@@ -75,7 +75,7 @@
 /* Toggler rotation when hovered over in a checked state */
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
-} 
+}
 
 /* Pop-up menu settings */
 .menu-wrap .toggler:checked ~ .menu {
@@ -138,4 +138,3 @@
     text-decoration: none;
     transition: color 0.4s ease;
 }
-

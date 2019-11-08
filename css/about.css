@@ -12,17 +12,33 @@
 
 h1 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 
-  padding: 20px 65px 40px 40px;
+
   cursor: pointer;
+}
+
+.section h2 span {
+  text-align: center;
+}
+
+p {
+  text-indent: 50px;
 }
 
 .borderbottom {
   background-color: #000000;
   text-align: center;
-  padding: 20px;
-  position: relative;
+  height: 87px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.borderbottom h1 {
+
+  font-size: 1.7rem;
+  padding: 37px 25px 0 25px;
 }
 
 
@@ -67,12 +83,14 @@ background-attachment
 
 .section {
    text-align:center;
-    padding: 200px 100px;
+    padding: 100px 50px;
 }
 
 .section-light {
     background-color: #f4f4f4;
     color: #666;
+    text-align: justify;
+    text-decoration-st
 }
 
 .section-dark {
@@ -115,20 +133,20 @@ background-attachment
     .borderbottom {
       background-color: #000000;
       width: 100%;
-      margin-top: -25px;
+
+
     }
 
     h1 {
-      padding-left: 75px;
       cursor: hidden;
-      margin-right: 20px;
       position: fixed;
       background-color: #000000;
       z-index: 1;
       width: 100%;
       color: #ffffff;
-      height: 65px;
+
       text-align: center;
+
 
     }
 
