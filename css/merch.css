@@ -43,13 +43,13 @@ h1 a {
 }
 
 #merchbackground {
-  background-image: url('../img/losangelesresponsive1.jpg');
+  background-image: url('../img/merch.jpg');
 
 
 }
 
 
-.bgimg {
+/* .bgimg {
 
     height: 100%;
     background-position: center;
@@ -103,8 +103,9 @@ h1 a {
     }
 
     h1 {
-      text-align: left;
+      text-align: center;
       font-size: 1px;
+      padding: 45px 0 0 0;
 
     }
 
@@ -126,8 +127,12 @@ h1 a {
     }
 
     h2 {
-      text-align: center;
+      text-align: justify;
+      padding: 0 0 0 25px;
+
     }
+
+
 
     h3 {
       text-align: center;
