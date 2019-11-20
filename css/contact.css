@@ -18,10 +18,16 @@ h1 {
 .borderbottom {
   background-color: #000000;
   text-align: center;
-  padding: 20px;
+  
   width: 100%;
   position: fixed;
   z-index: 1;
+}
+
+.borderbottom h1 a {
+  text-decoration: none;
+  color:#0000ff;
+  font-family: 'Calligraffitti', cursive;
 }
 
 
